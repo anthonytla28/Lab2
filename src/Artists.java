@@ -1,4 +1,7 @@
-package artists;
+/* Class: CISC 3130
+ * Section: MY9
+ * Name: Anthony Tlatenchi
+ */
 
 import java.io.PrintStream;
 import java.io.File;
