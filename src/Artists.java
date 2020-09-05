@@ -74,7 +74,7 @@ public class Artists {
         for (int i = 0; i < names.length; i++) {
             int numOccurrences = Collections.frequency(Arrays.asList(names), names[i]);
             if (numOccurrences > 1) {
-                names[i + 1] = null;
+                names = Arrays.stream(names).distinct().toArray(String[]::new);
             }
 
             ps.println(names[i]);
